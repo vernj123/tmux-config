@@ -68,28 +68,7 @@ SYNC PANES ON/OFF = prefix + y
 INSTALL TMUX PACKAGE = prefix + I
 
 
-  1 # Initial setup
-  2 set -g default-terminal xterm-256color
-  3 
-  4 set -ga terminal-overrides ',xterm-256color:Tc'
-  5 
-  6 # Easy config reload
-  7 bind-key r source-file ~/.tmux.conf \; display-message "tmux.conf reloaded!!    "
-  8 
-  9 # Mouse Mode
- 10 set -g mouse on
- 11 
- 12 # Set easier window split keys
- 13 bind-key v split-window -h
- 14 bind-key z split-window -v
- 15 
- 16 # Use Alt-arrow keys without prefix key to switch panes
- 17 bind -n M-Left select-pane -L
- 18 bind -n M-Right select-pane -R
- 19 bind -n M-Up select-pane -U
- 20 bind -n M-Down select-pane -D
- 21 
- NORMAL  ~/.tmux.conf                 tmu…  utf-8[unix]  2% :1/50☰ ℅:1 
+
 
 
 
