@@ -1,4 +1,4 @@
-#TMUX config file and basic navigation notes
+# TMUX config file and basic navigation notes
 
 Feel free to use/share my config file and general notes
 
@@ -46,7 +46,7 @@ or tmux rename-window
 
 list sessions command while in TMUX will show you how many sessions plus the one you're attached to
 
-REATTACH = tmux attach and will attach you to session most recently used
+REATTACH = tmux attach (will attach you to session most recently used)
 
 ATTACH TO SPECIFIC WINDOW = Exit out of tmux (possible nesting issues if you dont) and tmux a -t + session number (ex.0,1,2) or name (if you renamd it)
 
@@ -57,19 +57,22 @@ or prefix $
 
 RENAME A WINDOW IN THAT SESSION = tmux rename-window -t + window number(0,1,2 etc) whatever name
 
-**CONFIG SETTINGS:**
+**CONFIG NAVIGATION SETTINGS:**
 
 RELOAD TMUX CONFIG FILE W/O EXIT TMUX = prefix + r 
 
 SPLIT SCREEN = prefix + v  (vertical)  prefix + z (horizontal)
 
-NAVIGATE TO DIFFERENT PANES = ALT + arrows
+NAVIGATE TO DIFFERENT PANES = alt + arrows
 
-NAVIGATE TO DIFFERENT WINDOWS = Shift + arrows
+NAVIGATE TO DIFFERENT WINDOWS = Shift + keyboard arrows
 
-CHANGE WINDOW ORDER = CTRL + SHIFT + ARROW
+CHANGE WINDOW ORDER = ctrl + shift + keyboard arrows
 
 SYNC PANES ON/OFF = prefix + y  
+
+
+**GENERAL ITEMS:**
 
 INSTALL TMUX PACKAGE = prefix + I
 
